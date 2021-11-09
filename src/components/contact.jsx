@@ -20,7 +20,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_i3l2u78', 'template_mdv9cui', e.target, 'user_borL7PMtiLNvJKYcaTzdN'
       )
       .then(
         (result) => {
@@ -127,18 +127,8 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
+                    <a target='_blank' href={props.data ? props.data.instagram  : '/'}>
+                      <i className='fa fa-instagram'></i>
                     </a>
                   </li>
                 </ul>
@@ -150,10 +140,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
+            &copy; 2021  Tenta Wine - Adrian Parpat, Via Cacciorna 16, 12042 Bra, Cuneo, Italia
           </p>
         </div>
       </div>
