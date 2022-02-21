@@ -40,7 +40,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Winerys
+                Wineries
               </a>
             </li>
             <li>
@@ -51,6 +51,11 @@ export const Navigation = (props) => {
             <li>
               <a href='#contact' className='page-scroll'>
                 Contact
+              </a>
+            </li>
+            <li>
+              <a target='_blank' href={'https://www.instagram.com/tenta_wine/'}>
+                <i style={{margin: 3}} className='fa fa-instagram'></i>
               </a>
             </li>
           </ul>

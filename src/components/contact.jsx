@@ -100,9 +100,17 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'/> Address
                 </span>
                 {props.data ? props.data.address : 'loading'}
+              </p>
+            </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-map-marker'/> Address
+                </span>
+                {props.data ? props.data.addressTwo : 'loading'}
               </p>
             </div>
             <div className='contact-item'>
@@ -140,7 +148,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2021  Tenta Wine - Adrian Parpat, Via Cacciorna 16, 12042 Bra, Cuneo, Italia
+            &copy; 2022  Tenta Wine - Adrian Parpat, Via Cacciorna 16, 12042 Bra, Cuneo, Italia
           </p>
         </div>
       </div>

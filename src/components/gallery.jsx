@@ -5,9 +5,9 @@ export const Gallery = (props) => {
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Winerys</h2>
+          <h2>Wineries</h2>
           <p>
-            Overview of the winerys we work with.
+            Overview of the wineries we work with.
           </p>
         </div>
         <div className='row'>

@@ -291,6 +291,9 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
+.about-text {
+  margin-bottom: 260px;
+}
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
